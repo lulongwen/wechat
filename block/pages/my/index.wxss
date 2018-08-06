@@ -1,0 +1,4 @@
+view {
+  background-color: #f90;
+  color: #fff;
+}
