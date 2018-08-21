@@ -1,9 +1,10 @@
-.DS_Store
-node_modules/
-test/
-wechat/
-chelian/
-资料/
+
+
+Project
+snippets
+3.API
+6.开放功能
+小程序大师.md
 
 
 npm-debug.log*
@@ -18,4 +19,6 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
-.mmap
+*.mmap
+
+.DS_Store
