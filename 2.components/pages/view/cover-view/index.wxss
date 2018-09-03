@@ -1,0 +1,28 @@
+@import "/public/public.wxss";
+
+.video {
+  width: 100%;
+}
+.controls {
+  position: relative;
+  display: flex;
+  top: 50%;
+  height: 50px;
+  transform: translateY(-50%);
+}
+.play, .pause, .time {
+  flex: 1;
+  height: 100%;
+}
+
+.time {
+  line-height: 50px;
+  text-align: center;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  margin: 5px auto;
+}

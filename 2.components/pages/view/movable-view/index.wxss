@@ -1,0 +1,7 @@
+@import "/public/public.wxss";
+
+.btn-area {
+  width: 590px;
+  margin: 12rpx auto;
+  padding: 20rpx;
+}

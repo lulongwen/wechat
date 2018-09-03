@@ -1,0 +1,10 @@
+
+/* 修改button默认的点击状态样式 */
+.btn-hover {
+  background-color: red;
+}
+
+/* 添加自定义的点击样式 */
+.other-btn-hover {
+  background-color: blueviolet;
+}

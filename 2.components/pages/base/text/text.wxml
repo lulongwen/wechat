@@ -1,0 +1,6 @@
+<view class="title">
+  <text
+    selecttable="true"
+    space="emsp"
+    decode="true">{{text}}</text>
+</view>

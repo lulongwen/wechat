@@ -1,0 +1,42 @@
+<view class="title">movable-view小于movable-area时，movable-view的移动范围是在movable-area内</view>
+
+<movable-area style="width: 200px;height: 200px; background: red; margin: 0 auto">
+  <movable-view
+    style="width: 50px;height: 50px; background:blue"
+    x="{{x}}"
+    y="{{y}}"
+    direction="all"
+    inertia="true"></movable-view>
+</movable-area>
+<view class="btn-area">
+  <button
+    size="mini"
+    bindtap="tap">
+    click me to move to 30px, 30px
+  </button>
+</view>
+
+
+
+<view class="title">movable-view大于movable-area时，movable-view的移动范围必须包含movable-area</view>
+<movable-area style="width: 50px;height: 50px;background:red;margin: 0 auto 200px">
+  <movable-view
+    style="width: 140px; height: 140px; background: blue"
+    direction="all"></movable-view>
+</movable-area>
+
+
+<view class="title">movable-view 可缩放</view>
+<movable-area
+  scale-area
+  style="width: 200px; height: 200px;background:red;margin: 0 auto 200px">
+  <movable-view
+    style="width: 50px;height: 50px;background:blue"
+    direction="all"
+    bindchange="onChange"
+    bindscale="onScale"
+    scale
+    scale-min=".5"
+    scale-max="4"
+    scale-value="2"></movable-view>  
+</movable-area>

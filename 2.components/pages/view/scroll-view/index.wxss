@@ -1,0 +1,33 @@
+.item {
+  width: 600rpx;
+  height: 200rpx;
+  margin: 10rpx auto;
+}
+
+.list {
+  display: inline-block;
+  width: 100%;
+  height: 200rpx;
+}
+
+.bg-green {
+  background-color: green;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-pink {
+  background-color: pink;
+}
+.bg-blue {
+  background-color: blue;
+}
+
+
+
+.scroll-x {
+  height: 200rpx;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+

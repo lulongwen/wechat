@@ -1,0 +1,33 @@
+<view class="title">progress 进度条</view>
+
+<view class="block">
+  <progress percent="20" show-info></progress>
+</view>
+
+<view class="block">
+  <progress percent="40" stroke-width="16"></progress>
+</view>
+
+<view class="block">
+  <progress percent="60" color="pink"></progress>
+</view>
+
+<view class="block">
+  <progress percent="80" active></progress>
+</view>
+
+<view class="block">
+  <progress
+    percent="50"
+    activeColor="#13c3a1"
+    backgroundColor="#ccc"></progress>
+</view>
+
+<view class="block">
+  <progress
+    percent="{{percentValue}}"
+    show-info
+    active
+    active-mode="forwards"></progress>
+    <!-- backwords 从头开始动画 -->
+</view>

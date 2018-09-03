@@ -1,7 +1,29 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/view/view/view",
+    "pages/view/scroll-view/index",
+    "pages/view/swiper/swiper",
+    "pages/view/movable-view/index",
+    "pages/view/cover-view/index",
+
+    "pages/base/icon/icon",
+    "pages/base/text/text",
+    "pages/base/rich-text/rich",
+    "pages/base/progress/progress",
+
+    "pages/form/form/index",
+    "pages/form/button/index",
+    "pages/form/checkbox/index",
+    "pages/form/radio/index",
+    "pages/form/input/index",
+    "pages/form/label/index",
+    "pages/form/picker/index",
+    "pages/form/picker-view/index",
+    "pages/form/slider/index",
+    "pages/form/switch/index",
+    "pages/form/textarea/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

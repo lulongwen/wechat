@@ -1,0 +1,11 @@
+<view class="section">
+  <view>view 组件</view>
+  <view class="view-wrap" hover-class="wrap-hover">
+    <view
+      class="view"
+      hover-class="view-hover"
+      hover-stop-propagation="true"
+      hover-start-time="500"
+      hover-stay-time="300"></view>
+  </view>
+</view>

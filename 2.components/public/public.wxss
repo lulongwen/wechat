@@ -1,0 +1,6 @@
+.title {
+  padding: 20rpx;
+  line-height: 50rpx;
+  word-wrap: break-word;
+  word-break: break-all;
+}

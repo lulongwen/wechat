@@ -1,13 +1,50 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="title">view 视图容器- 控制页面的内容</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/view/view/view">view 容器</navigator>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+  <view class="weui-cell">
+    <navigator url="/pages/view/scroll-view/index">scroll-view 滚动容器</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/view/swiper/swiper">
+      swiper 轮播容器
+    </navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/view/cover-view/index">
+      cover-view 盖在其他元素上的组件
+    </navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/view/movable-view/index">
+      movable-view 移动缩放组件
+    </navigator>
+  </view>
+</view>
+
+
+<view class="title">基础内容</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/base/icon/icon">icon</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/base/text/text">text</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/base/rich-text/rich">rich-text</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/base/progress/progress">progress</navigator>
   </view>
 </view>

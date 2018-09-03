@@ -1,0 +1,6 @@
+@import '/public/public.wxss';
+
+.block {
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+}

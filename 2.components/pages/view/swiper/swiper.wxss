@@ -1,0 +1,14 @@
+@import '/public/weui.wxss';
+@import '/public/public.wxss';
+
+button{
+  margin-bottom: 30rpx;
+}
+button:last-child{
+  margin-bottom: 0;
+}
+
+.swiper-item{
+  display: block;
+  height: 150px;
+}
