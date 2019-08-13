@@ -1,0 +1,14 @@
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <view class="body-view">
+      <switch
+        style="margin-right: 50rpx"
+        checked
+        type="checkbox"
+        color="red"
+        bindchange="switchChange"></switch>
+
+      <switch bindchange="switchChange"></switch>
+    </view>
+  </view>
+</view>

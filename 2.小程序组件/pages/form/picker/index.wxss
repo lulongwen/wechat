@@ -1,0 +1,7 @@
+@import "/public/weui.wxss";
+
+.picker {
+  padding: 20rpx 25rpx;
+  border: 1px solid cornflowerblue;
+  background-color: #fff;
+}

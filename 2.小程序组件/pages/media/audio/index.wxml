@@ -1,0 +1,14 @@
+<view class="page-body">
+  <view class="page-section page-section-gap" style="text-align:center">
+    <audio
+      src="{{current.src}}"
+      controls="controls"
+      style="text-align:left"
+      poster="{{current.poster}}"
+      name="{{current.name}}"
+      action="{{audioAction}}"
+      bindplay="playAudio"
+      bindpause="pauseAudio"
+      bindtimeupdate="timeupdate"></audio>
+  </view>
+</view>

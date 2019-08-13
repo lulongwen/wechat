@@ -1,0 +1,10 @@
+@import '/public/weui.wxss';
+
+.weui-cells {
+  margin-top: 80rpx;
+  text-align: left;
+}
+
+.weui-label {
+  width: 5em;
+}

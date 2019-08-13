@@ -1,0 +1,9 @@
+.text-center {
+  text-align: center;
+}
+
+.image {
+  width: 580rpx;
+  height: 220rpx;
+  margin-top: 30rpx;
+}

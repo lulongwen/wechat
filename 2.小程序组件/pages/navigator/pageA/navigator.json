@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "navigator",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/navigator/pageA/navigator",
+        "text": "页面A"
+      },
+      {
+        "pagePath": "pages/navigator/pageD/pageD",
+        "text": "页面D"
+      }
+    ]
+  }
+}

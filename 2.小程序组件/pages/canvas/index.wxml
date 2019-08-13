@@ -1,0 +1,15 @@
+
+<canvas
+  style="width: 260px;height: 200px;background-color:#fff;margin: 20rpx auto"
+  canvas-id="canvas01" />
+
+<!-- 绝对定位时，文档流后面的 canvas的层级高于前面的 -->
+<canvas
+  style="width: 400px;height: 500px"
+  canvas-id="canvas02" />
+
+<!-- id与前一个canvas id重复，该canvas不会显示，并会发送一个错误事件到 AppService -->
+<canvas
+  style="width: 300px;height: 200px"
+  canvas-id="canvas02"
+  binderror="errorCallback"/>

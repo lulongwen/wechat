@@ -1,0 +1,7 @@
+.navigator-hover button {
+  background-color: #dedede;
+}
+
+.other-navigator-hover button {
+  background-color: #90f;
+}

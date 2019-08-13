@@ -1,0 +1,153 @@
+<!--index.wxml-->
+<view class="title">view 视图容器- 控制页面的内容</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/view/view/view">view 容器</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/view/scroll-view/index">scroll-view 滚动容器</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/view/swiper/swiper">
+      swiper 轮播容器
+    </navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/view/cover-view/index">
+      cover-view 盖在其他元素上的组件
+    </navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/view/movable-view/index">
+      movable-view 移动缩放组件
+    </navigator>
+  </view>
+</view>
+
+
+
+<view class="title">基础内容</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/base/icon/icon">icon</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/base/text/text">text</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/base/rich-text/rich">rich-text</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/base/progress/progress">progress</navigator>
+  </view>
+</view>
+
+
+
+<view class="title">表单组件</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/base/icon/icon">icon</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/button/index">button</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/checkbox/index">checkbox</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/radio/index">radio</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/slider/index">slider</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/switch/index">switch</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/textarea/index">textarea</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/label/index">label</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/input/index">input</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/form/index">form</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/picker/index">picker</navigator>
+  </view>
+
+  <view class="weui-cell">
+    <navigator url="/pages/form/picker-view/index">picker-view</navigator>
+  </view>
+
+</view>
+
+
+<view class="title">导航 navigator</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/navigator/pageA/navigator">navigator 导航</navigator>
+  </view>
+</view>
+
+
+<view class="title">媒体组件</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/media/audio/index">audio</navigator>
+  </view>
+</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/media/image/index">image</navigator>
+  </view>
+</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/media/video/index">video</navigator>
+  </view>
+</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/media/camera/index">camera</navigator>
+  </view>
+</view>
+
+
+<view class="title">地图组件</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/map/index">map 地图</navigator>
+  </view>
+</view>
+
+<view class="title">cancas 组件</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <navigator url="/pages/canvas/index">canvas 绘图</navigator>
+  </view>
+</view>

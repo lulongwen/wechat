@@ -1,0 +1,5 @@
+@import "/public/weui.wxss";
+
+.page-section {
+  margin-bottom: 20rpx;
+}

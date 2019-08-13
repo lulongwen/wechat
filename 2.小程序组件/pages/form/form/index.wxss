@@ -1,0 +1,16 @@
+@import '/public/weui.wxss';
+
+label {
+  display: inline-block;
+  min-width: 120px;
+  margin-right: 20rpx;
+}
+
+form {
+  width: 100%;
+}
+
+.picker-text {
+  position: relative;
+  margin-left: 20rpx;
+}
